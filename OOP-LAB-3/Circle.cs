@@ -14,7 +14,8 @@ namespace OOP_LAB_3
         }
         public override double Area()
         {
-            return Radius * Radius * Pi;
+            var area = Radius * Radius * Pi;
+            return Math.Round(area, 2);
         }
     }
 }
