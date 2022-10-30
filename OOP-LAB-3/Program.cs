@@ -2,11 +2,12 @@
 
 namespace OOP_LAB_3
 {
+    // Leo F SUT22
     class Program
     {
         static void Main(string[] args)
         {
-            // Creates a new object of Geo-class and the points base class from childclasses.
+            // Creates a new object of Geo-class and then points base class from childclasses.
             var obj = new Geometri();
             obj = new Circle();
             Console.WriteLine($"Area of the circle is : {obj.Area()}");
