@@ -6,9 +6,7 @@ namespace OOP_LAB_3
 {
     internal class Geometri
     {
-        private double _pi = 3.141;
-        public double Radius { get; set; }
-
+        public double Pi = 3.141;
         public Geometri()
         {
 
