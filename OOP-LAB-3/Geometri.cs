@@ -11,7 +11,10 @@ namespace OOP_LAB_3
         {
 
         }
-
+        /// <summary>
+        /// Method that is derived later to return Area of an object.
+        /// </summary>
+        /// <returns>Area of object specified in double</returns>
         public virtual double Area()
         {
             return 0;
