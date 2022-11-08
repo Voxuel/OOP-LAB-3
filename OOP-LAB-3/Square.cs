@@ -6,16 +6,14 @@ namespace OOP_LAB_3
 {
     class Square : Geometri
     {
-        public double Side { get; set; }
-
         public Square()
         {
-            Side = 10;
+            _side = 10;
         }
 
         public override double Area()
         {
-            return Side * Side;
+            return _side * _side;
         }
     }
 }

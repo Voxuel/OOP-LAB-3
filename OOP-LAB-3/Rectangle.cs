@@ -6,16 +6,16 @@ namespace OOP_LAB_3
 {
     internal class Rectangle : Geometri
     {
-        public double Side { get; set; }
+        private double Side { get; set; }
 
         public Rectangle()
         {
-            Side = 7;
+            _side = 7;
         }
 
         public override double Area()
         {
-            return Side * Side;
+            return _side * _side;
         }
     }
 }

@@ -6,7 +6,9 @@ namespace OOP_LAB_3
 {
     internal class Geometri
     {
-        public double Pi = Math.PI;
+        protected double _pi = Math.PI;
+        protected double _side;
+        protected double _radius;
         public Geometri()
         {
 
