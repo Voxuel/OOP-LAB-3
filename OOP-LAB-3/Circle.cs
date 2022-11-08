@@ -4,7 +4,6 @@ using System.Text;
 
 namespace OOP_LAB_3
 {
-    // Leo F SUT22
     class Circle : Geometri
     {
         public double Radius { get; set; }
