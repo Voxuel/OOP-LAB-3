@@ -8,15 +8,15 @@ namespace OOP_LAB_3
         static void Main(string[] args)
         {
             // Creates a new object of Geo-class and then points base class from childclasses.
-            Geometri obj;
-            obj = new Circle();
-            Console.WriteLine($"Area of the circle is : {obj.Area()}");
 
-            obj = new Rectangle();
-            Console.WriteLine($"Area of the rectangle is : {obj.Area()}");
+            Geometri circle = new Circle();
+            Console.WriteLine($"Area of the circle is : {circle.Area()}");
 
-            obj = new Square();
-            Console.WriteLine($"Area of the square is : {obj.Area()}");
+            Geometri rectangle = new Rectangle();
+            Console.WriteLine($"Area of the rectangle is : {rectangle.Area()}");
+
+            Geometri square = new Square();
+            Console.WriteLine($"Area of the square is : {square.Area()}");
 
             Console.ReadKey();
 
